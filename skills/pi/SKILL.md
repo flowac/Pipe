@@ -3,7 +3,9 @@ name: pi
 description: >-
   Master Orchestrator skill for the 6-stage multi-agent coding pipeline
   (1: ingest -> 2: plan -> 3: red-team -> 2: plan rework -> 4: author <-> 5: verify -> 6: review).
-  Use this skill whenever the user invokes /pi or asks to run the multi-agent coding pipeline.
+  ALWAYS activate and follow this skill whenever the user invokes /pi, asks to run the coding pipeline,
+  OR prompts any non-trivial coding task (new features, multi-file changes, architectural refactors,
+  or complex bug fixes).
 ---
 
 # Multi-Agent Coding Pipeline Orchestrator (`/pi`)
